@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavra Cruzada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Palavra Cruzada</h1>
+    <div class="jogo">
+        <div id="container_tabuleiro"></div>
+
+        <div id="dicas">
+            <h2>Dicas</h2>
+            <ol>
+                <li id="dica1">
+                    Conjunto de fios no barramento do sistema de um
+                    computador que carrega sinais especificando a localização da memória ou dispositivo para leitura ou
+                    escrita.
+                </li>
+                <li id="dica2">
+                    Processador com 4 núcleos
+                </li>
+                <li id="dica3">
+                    É usada para armazenar dados temporários
+                    que estão sendo usados ativamente pelo sistema operacional, aplicativos e processos em execução. É
+                    volátil.
+                </li>
+                <li id="dica4">
+                    Técnica utilizada em sistemas de computadores
+                    para transferir dados diretamente entre dispositivos periféricos e a memória principal, sem a
+                    intervenção
+                    da CPU.
+                </li>
+                <li id="dica5">
+                    É uma sequência de instruções que faz parte de um processo principal. Formam tarefas independentes, mas
+                    relacionadas entre si.
+                </li>
+                <li id="dica6">
+                    Sinal/comando utilizado em eletrônica digital para selecionar um
+                    dispositivo específico em um barramento compartilhado.
+                </li>
+                <li id="dica7">
+                    Tipo de armazenamento de dados não volátil e de grande
+                    capacidade em um computador. Tem como exemplo o HD e SSD.
+                </li>
+                <li id="dica8">
+                    Tipo de memória rápida e volátil (perde os dados ao ser desenergizado),
+                    localizados na CPU e usados para o armazenamento de dados.
+                </li>
+                <li id="dica9">
+                    Família de processadores de alto desempenho da Intel.
+                </li>
+                <li id="dica10">
+                    família de processadores de médio desempenho da Intel.
+                </li>
+                <li id="dica11">
+                    É responsável pelo processamento de dados
+                    em um dispositivo eletrônico, seja em um computador, celular ou outro, funcionando como o cérebro
+                    desses equipamentos.
+                </li>
+                <li id="dica12">
+                    Circuito reponsável por realizar/executar operações
+                    lógicas, cálculos diversos e operações booleanas.
+                </li>
+                <li id="dica13">
+                    Conjunto de fios no barramento do sistema,
+                    transferindo os dados entre a CPU e outros dispositivos durante as
+                    operações de leitura ou escrita.
+                </li>
+                <li id="dica14">
+                    Utilizada para armazenar dados temporários e instruções frequentemente acessados pela CPU.</li>
+                </li>
+                <li id="dica15">
+                    Processador com 2 núcleos
+                </li>
+                <li id="dica16">
+                    Tipo de memória
+                    não volátil que pode ser programada e apagada várias vezes, podendo ser apagada por exposição à luz
+                    ultravioleta.
+                </li>
+                <li id="dica17">
+                    Tipo de memória não volátil que permite a leitura e gravação de dados, sendo
+                    amplamente usada em dispositivos de armazenamento, como pen drives, cartões de memória e unidades
+                    SSD
+                </li>
+                <li id="dica18">
+                    Memória de armazenamento de dados,
+                    contendo dados essenciais para a inicialização do sistema. É uma memória não volátil.
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <dialog id="dialogoVenceu">
+        <div class="dialog-container_tabuleiro">
+            <h2>Você Ganhou!</h2>
+            <button onclick="location.reload()">Tentar Novamente</button>
+        </div>
+    </dialog>
+</body>
+</html>
+
+<script src="script.js"></script>
